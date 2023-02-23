@@ -20,15 +20,15 @@ body {
 }
 
 .main-font-family {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Roboto', cursive;
 }
 
 .noto-font-family {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', serif;
 }
 
 .lobster-font-family {
-    font-family: 'Lobster', cursive;;
+    font-family: 'Roboto', cursive;;
 }
 
 .roboto-font-family {
@@ -58,7 +58,6 @@ body {
 }
 
 .navbar .container {
-    width: 60%;
     background-color: white;
     transform: skew(-30deg);
     padding: 5px 20px;
@@ -66,7 +65,7 @@ body {
 }
 
 .navbar .book {
-    background-color: #cc0000;
+    background-color: #3b7efa;
 }
 
 .navbar .book a {
@@ -83,7 +82,7 @@ body {
 
 header {
     color: white;
-    background: #cc0000;
+    background: #3b7efa;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -96,7 +95,6 @@ header h1 {
 }
 
 header h1 span {
-    color: black;
     border: 1px solid #FFF;
     font-size: 120px;
     line-height: 2;
@@ -114,13 +112,13 @@ header button {
     transform: skew(-25deg);
     padding: 10px 40px;
     border: none;
-    background-color: #ffcc33;
+    background-color: #0400ff;
     position: absolute;
     bottom: 0;
 }
 
 header button a {
-    color: black;
+    color: white;
 }
 
 header form {
@@ -151,7 +149,7 @@ header input[type="submit"] {
     right: 0;
     border: none;
     height: 40px;
-    background-color: #cc0000;
+    background-color: #3b7efa;
     color: white;
 }
 
@@ -188,14 +186,13 @@ header .carousel-control-next, header .carousel-control-prev {
 }
 
 header .carousel-control-next {
-    background-color: #cc0000;
+    background-color: #3b7efa;
     text-align: right !important;
     top: 320px;
 }
 
 header .carousel-control-prev {
-    background-color: #ffcc33;
-    color: black !important;
+    color: white !important;
     top: 370px;
 }
 
@@ -252,11 +249,11 @@ header .carousel-one {
 }
 
 header .carousel-two {
-    background-image: url(../imgs/header.jpg);
+    background-image: url(../imgs/header1.jpg);
 }
 
 header .carousel-three {
-    background-image: url(../imgs/header.jpg);
+    background-image: url(../imgs/header2.jpg);
 }
 
 header button a {
@@ -296,7 +293,7 @@ header button a {
 }
 
 .about h4 {
-    color: #cc0000;
+    color: #3b7efa;
     margin-bottom: 25px
 }
 
@@ -306,7 +303,7 @@ header button a {
 }
 
 .about button {
-    background-color: #ffcc33;
+    background-color: #0400;
     border: none;
     transform: skew(-25deg);
 }
@@ -538,7 +535,7 @@ header button a {
 .contact form input[type="submit"] {
     width: 120px;
     height: 40px;
-    background-color: #ffcc33;
+    background-color: #0400;
     border: none;
     margin-bottom: 0;
 }
@@ -579,7 +576,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ffcc33;
+    color: #0400;
 }
 
 footer h3 {
@@ -613,9 +610,9 @@ footer .form ul li {
 }
 
 footer .form ul li a {
-    color: #ffcc33;
+    color: #0400;
     padding: 0 13px;
-    border: 1px solid #ffcc33;
+    border: 1px solid #0400;
     border-radius: 50%;
     display: block;
     text-align: center;
@@ -642,7 +639,7 @@ footer form input:last-of-type {
     right: 4px;
     border: none;
     padding: 7px 7px 6px;
-    background-color: #cc0000;
+    background-color: #3b7efa;
     color: white;
     cursor: pointer;
     font-size: 13px;
@@ -665,7 +662,7 @@ footer form input:last-of-type {
 
 .copyright p a:hover,
 .copyright p a:focus {
-   color: #cc0000;
+   color: #3b7efa;
 }
 
 /* media queries */
